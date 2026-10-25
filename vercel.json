@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "04_ai_chat_app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "04_ai_chat_app.py"
+    }
+  ]
+}
