@@ -1,0 +1,10 @@
+# Core LLM SDKs
+google-genai>=2.30.1
+openai>=1.50.0
+
+# Environment and Data Validation
+python-dotenv>=1.0.1
+pydantic>=2.9.0
+
+# Application UI
+streamlit>=1.40.0

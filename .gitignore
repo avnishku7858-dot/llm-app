@@ -1,0 +1,31 @@
+# IDE & Agent metadata
+.agents/
+.claude/
+.idea/
+.vscode/
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
