@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "framework": null,
-  "functions": {
-    "04_ai_chat_app.py": {
-      "runtime": "@vercel/python"
+  "builds": [
+    {
+      "src": "04_ai_chat_app.py",
+      "use": "@vercel/python"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/(.*)",
